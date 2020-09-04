@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 // write your custom hook here to control your checkout form
-export const UseForm = (initialValue) => {
+export const useForm = (initialValue) => {
   // Settings state to initialValue passed
   const [value, setValue] = useState(initialValue);
 
