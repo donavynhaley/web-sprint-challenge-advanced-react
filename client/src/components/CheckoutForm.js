@@ -93,7 +93,7 @@ const CheckoutForm = (props) => {
             }}
           />
         </label>
-        <button>Checkout</button>
+        <button data-testid="submit">Checkout</button>
       </form>
 
       {showSuccessMessage && (
